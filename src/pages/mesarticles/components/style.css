@@ -1,0 +1,49 @@
+.forja_media_card2 {
+    width: 224px;
+    height: 266px;
+    background: #FFF;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px 0 rgba(12, 12, 13, 0.1);
+    transition: opacity 0.3s, transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+    white-space: normal;
+    vertical-align: top;
+}
+.forja_media_card2-details {
+    padding: 15px 16px 12px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.forja_media_card2-image {
+    height: 122px;
+    width: 100%;
+    background-size: 125%;
+    background-position: center 0%;
+    transition: background-size 0.3s, background-position 0.3s;
+}
+.forja_media_card2-title {
+    max-height: 57px;
+    overflow: hidden;
+    color: #0C0C0D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.forja_media_card2-context-label {
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 11px;
+}
+.img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
